@@ -1,7 +1,7 @@
 // util function that computes the fibonacci numbers
 module.exports = function fibonacci(n: number): number {
   if (n < 0) {
-    return -1;gi
+    return -1;
   } else if (n == 0) {
     return 0;
   } else if (n == 1) {
